@@ -147,7 +147,31 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- featured bike -->
-        <section>
+        <section class="my-20">
+            <h3 class="text-5xl font-semibold text-center py-10">Featured Bikes</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+                <div
+                    class="card bg-base-100 w-96 shadow-xl transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
+                    <figure>
+                        <img src="images/others/feature-bike.png" alt="Shoes" />
+                    </figure>
+                    
+                </div>
+                <div
+                    class="card bg-base-100 w-96 shadow-xl transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
+                    <figure>
+                        <img src="images/others/latest1.png" alt="Shoes" />
+                    </figure>
+                    
+                </div>
+                <div
+                    class="card bg-base-100 w-96 shadow-xl transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
+                    <figure>
+                        <img src="images/others/latest3.png" alt="Shoes" />
+                    </figure>
+                    
+                </div>
+            </div>
 
         </section>
         <!-- latest bikes -->
@@ -200,7 +224,7 @@
             </div>
         </section>
         <!-- happy client -->
-        <section class="my-20">
+        <section class="my-20 justify-center">
             <h3 class="text-5xl font-semibold text-center py-10">Happy <span class="text-red-400">Clients Says</span>
             </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
@@ -218,17 +242,17 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="1 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="2 star"  />
+                                aria-label="2 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="3 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="4 star" checked="checked"/>
+                                aria-label="4 star" checked="checked" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="5 star" />
                         </div>
                         <div class=" text-center space-y-4 mt-5">
-                           <h3 class="text-sm font-semibold text-blue-500">Resina Miles</h3>
-                           <p class="text-sm">Banker</p>
+                            <h3 class="text-sm font-semibold text-blue-500">Resina Miles</h3>
+                            <p class="text-sm">Banker</p>
                         </div>
                     </div>
                 </div>
@@ -246,17 +270,17 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="1 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="2 star"  />
+                                aria-label="2 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="3 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="4 star" checked="checked"/>
+                                aria-label="4 star" checked="checked" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="5 star" />
                         </div>
                         <div class=" text-center space-y-4 mt-5">
-                           <h3 class="text-sm font-semibold text-blue-500">Lika Chandler</h3>
-                           <p class="text-sm">Banker</p>
+                            <h3 class="text-sm font-semibold text-blue-500">Lika Chandler</h3>
+                            <p class="text-sm">Banker</p>
                         </div>
                     </div>
                 </div>
@@ -274,27 +298,106 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="1 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="2 star"  />
+                                aria-label="2 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="3 star" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                aria-label="4 star" checked="checked"/>
+                                aria-label="4 star" checked="checked" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
                                 aria-label="5 star" />
                         </div>
                         <div class=" text-center space-y-4 mt-5">
-                           <h3 class="text-sm font-semibold text-blue-500">Sophia Stun</h3>
-                           <p class="text-sm">Banker</p>
+                            <h3 class="text-sm font-semibold text-blue-500">Sophia Stun</h3>
+                            <p class="text-sm">Banker</p>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
+        </section>
+        <!-- FAQ -->
+        <section class="my-20">
+            <h3 class="text-5xl font-semibold text-center py-10">Frequently Asked <span
+                    class="text-red-400">Questions</span>
+            </h3>
+            <div class="hero  ">
+                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+                    <img src="images/others/faq.png" class="w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="collapse collapse-arrow  border border-base-200">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title font-semibold">How should I prepare before riding a bike?</div>
+                            <div class="collapse-content text-sm">Always wear a properly fitted helmet.
+
+                                Check brakes, tires, and lights before starting.
+
+                                Wear visible clothing, especially at night.</div>
+                        </div>
+                        <div class="collapse collapse-arrow  border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">How do I stay safe in traffic?</div>
+                            <div class="collapse-content text-sm">Always follow traffic rules and signals.
+
+                                Ride in the same direction as traffic.
+
+                                Use hand signals to show your turns.</div>
+                        </div>
+                        <div class="collapse collapse-arrow  border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">What should I do to avoid accidents?</div>
+                            <div class="collapse-content text-sm">Keep both hands on the handlebars.
+
+                                Stay alert for potholes, doors opening, or sudden stops.
+
+                                Maintain a safe distance from other vehicles.</div>
+                        </div>
+                        <div class="collapse collapse-arrow  border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">How can I ride safely at night?</div>
+                            <div class="collapse-content text-sm">Use a white front light and red rear light.
+
+                                Wear reflective or bright-colored gear.
+
+                                Stick to well-lit roads whenever possible..</div>
+                        </div>
+                        <div class="collapse collapse-arrow  border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">What safety gear is recommended besides a helmet?
+                            </div>
+                            <div class="collapse-content text-sm">Elbow and knee pads for extra protection.
+
+                                Gloves for better grip and reduced injury.
+
+                                Sturdy, closed-toe shoes for control and safety.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main>
-    <footer>
-
+    <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+        <aside>
+            
+            <p>
+                Biker Zone Ltd.
+                <br />
+                Providing reliable tech since 1992
+            </p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">Social</h6>
+            <div class="grid grid-cols-1ol gap-4 justify-end">
+                <a>
+                   <img class="w-24" src="images/others/android.png" alt="">
+                </a>
+                <a>
+                    <img class="w-24" src="images/others/ios.png" alt="">
+                </a>
+               
+            </div>
+        </nav>
     </footer>
 </body>
 
